@@ -604,9 +604,47 @@ https://quarkus.io/guides/security-jdbc
 
 ==== Besprochen
 
-Wir haben über Secuirty mithilfe von Keycloak gesprochen: https://www.keycloak.org/downloads
+Wir haben über Security mithilfe von Keycloak gesprochen: https://www.keycloak.org/downloads
 
-* kleine mini quarkus anwendung die geschützt werden (zb nur rest teil)
+* Kleine mini quarkus Anwendung die geschützt werden (z.B.: nur rest teil)
 
-*user haben Rollen --> Rollen geben einen User gewisse rechte die er machen darf.
+* User haben Rollen --> Rollen geben einen User gewisse Rechte, die er machen darf.
 
+== 2022-01-17
+
+* assert: stelle sicher, Zusicherung
+
+image:projektarchitektur.jpeg[]
+
+.Bottom-Up (Basis-Ansatz)
+Einzelne Programmbestandteile werden definiert, eventuell sogar direkt geschrieben.
+Aus diesen Teilen werden dann größere Elemente des Programms zusammengesetzt, bis das vollständige System erstellt ist.
+
+.Top-Down (Vogelperspektive, Überbau-Ansatz)
+Grundlegender Architekturüberblick (Zuerst Landkarte => z.B.: Wo muss Technologie hin?)
+
+.REST-Service
+Daten zwischen Komponenten austauschen mit z.B.: Delete, Patch, Put, Get, Post
+
+.Metadata
+Daten über Daten. Z.B.: Datentyp, Autowert, ...
+
+.Daten
+Daten sind rohe, unorganisierte, zusammenhangslose Fakten.
+
+.Informationen
+* Informationen entstehen aus Daten
+* Daten werden verwendet zur Problemlösung, dann werden diese Daten zu Informationen
+* Wenn man Daten verarbeitet, organisiert, strukturiert oder in bestimmten Kontext stellt
+
+.Data Mining
+Mit mathematischen Methoden Zusammenhänge zwischen Daten ermitteln.
+Z.B.: Wenn man Bier kauft, kaufen viel auch Chips =>
+daher sind meistens Bier und Chips in unmittelbarer Nähe von einander
+
+.Testen
+Nicht zu viele Tests, aber auch nicht zu wenige Tests.
+
+* assertj
+* myBatis
+* jdbc
