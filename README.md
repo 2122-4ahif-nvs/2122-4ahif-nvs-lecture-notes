@@ -1,3 +1,7 @@
+= 2122-4ahif-nvs-lecture-notes
+
+- https://2122-4ahif-nvs.github.io/2122-4ahif-nvs-lecture-notes/
+
 1. Preparations
 
 1.1 Create a .env - file
