@@ -562,10 +562,10 @@ https://quarkus.io/guides/qute
 *** https://github.com/htl-leonding-college/asciidoctor-convert-template
 
 
-image::9EEB110B-7A0D-4789-923E-2BA96424C1BF_1_105_c.jpeg[]
-image::83005B78-FC58-424C-8ED4-73B08DA2831A_1_105_c.jpeg[]
-image::4698D10F-BB69-46A7-8EC7-1C336F8D6AE5_1_105_c.jpeg[]
-image::95078A62-C1F7-41A5-A9E6-553C0C8143D8_1_105_c.jpeg[]
+image::tafelbild01-vmodell.jpeg[]
+image::tafelbild03-testen.jpeg[]
+image::tafelbild02-vmodell-scrum.jpeg[]
+image::tafelbild04-ucd.jpeg[]
 
 
 
@@ -648,3 +648,48 @@ Nicht zu viele Tests, aber auch nicht zu wenige Tests.
 * assertj
 * myBatis
 * jdbc
+
+
+
+== 2022-02-03
+
+=== Rest-Client
+
+image::rest-client.png[]
+
+
+=== Übung Mikroprojekt
+
+* Einen Zugriff auf einen REST-Service implementieren
+
+** https://httpbin.org/
+** https://http.cat/
+** https://www.boredapi.com/
+** https://quotes.rest/
+
+
+== 2022-02-08
+
+=== Unit--Testing
+
+==== Test Struktur
+
+===== Arrange-Act-Assert
+
+* AAA-Pattern
+
+===== Given-When-Then
+
+== 2022-02-15
+
+=== Kotlin - Grundlagen
+
+* http://edufs.edu.htl-leonding.ac.at/~t.stuetz/download/android/01-kotlin-grundlagen/01_Introduction.pdf[01_Introduction.pdf^]
+
+* http://edufs.edu.htl-leonding.ac.at/~t.stuetz/download/android/01-kotlin-grundlagen/02_Functional_Programming.pdf[02_Functional_Programming.pdf^]
+
+////
+* http://edufs.edu.htl-leonding.ac.at/~t.stuetz/download/android/01-kotlin-grundlagen/03_Object_Orientation.pdf[03_Object_Orientation.pdf^]
+
+* http://edufs.edu.htl-leonding.ac.at/~t.stuetz/download/android/01-kotlin-grundlagen/04_Android.pdf[Android^]
+////
