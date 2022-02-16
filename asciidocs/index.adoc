@@ -8,8 +8,15 @@ ifndef::imagesdir[:imagesdir: images]
 :sectnums:    // Nummerierung der Überschriften / section numbering
 :toc: left
 
+
 //Need this blank line after ifdef, don't know why...
-//ifdef::backend-html5[]
+ifdef::backend-html5[]
+
+// https://fontawesome.com/v4.7.0/icons/
+icon:file-text-o[link=https://raw.githubusercontent.com/2122-4ahif-nvs/2122-4ahif-nvs-lecture-notes/main/asciidocs/{docname}.adoc] ‏ ‏ ‎
+icon:github-square[link=https://github.com/2122-4ahif-nvs/2122-4ahif-nvs-lecture-notes] ‏ ‏ ‎
+icon:home[link=https://htl-leonding.github.io/]
+endif::backend-html5[]
 
 // print the toc here (not at the default position)
 //toc::[]
