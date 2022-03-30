@@ -700,3 +700,63 @@ image::rest-client.png[]
 
 * http://edufs.edu.htl-leonding.ac.at/~t.stuetz/download/android/01-kotlin-grundlagen/04_Android.pdf[Android^]
 ////
+
+
+== 2022-02-17 (Do.) SYP-Ersatzstunde
+
+=== Einrichten der oravm
+
+
+== 2022-02-08 - Foliensätze Kotlin
+
+
+
+== 2022-03-10 Erstes Android Project
+
+=== CoolDroid (siehe labs folder)
+
+* ist noch ohne jetpack compose mit xml-files
+
+
+== 2022-03-29
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
